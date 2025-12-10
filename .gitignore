@@ -1,0 +1,32 @@
+ 
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# LLM outputs / cache
+outputs/
+.cache/
+
+# Prompts & schema temp (optional if generated)
+*.json
+*.tmp
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
+
+# GitHub workflow temp
+.github/workflows/*.yml
