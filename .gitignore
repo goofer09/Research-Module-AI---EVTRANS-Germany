@@ -18,9 +18,9 @@ venv/
 outputs/
 .cache/
 
-# Prompts & schema temp (optional if generated)
+# Ignore other JSON files except schema
 *.json
-*.tmp
+!schema/*.json
 
 # OS / IDE files
 .DS_Store
