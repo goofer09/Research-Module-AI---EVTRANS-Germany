@@ -1,0 +1,8 @@
+run:
+  id: "run-local-001"
+  seed: 42
+model:
+  preferred: "gpt-4.1"
+  temperature: 0.0
+paths:
+  output_dir: "outputs"
